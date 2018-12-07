@@ -322,11 +322,8 @@ class HomeIndex extends React.Component {
                         <h3 className="icon fa-home">
                           <span className="label">Address</span>
                         </h3>
-                        5003 Cotillion Ct.
+                        Dallas, TX
                         <br />
-                        Arlington, TX 76017
-                        <br />
-                        United States
                       </li>
                       <li>
                         <h3 className="icon fa-mobile">
