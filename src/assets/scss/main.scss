@@ -2,7 +2,7 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 @import '../css/font-awesome.min.css';
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic|Bungee+Shade");
 @import './hamburgers-settings.scss';
 @import '../../../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss';
 
@@ -287,32 +287,66 @@
 		}
 
 		.navbar {
-			background: white;
+			background: rgba(120,120,120, 1);
 			width: 100vw;
-			// border: solid 1px red;
 			position: fixed;
 			top: 0;
-			height: 50px;
+			// height: 75px;
 			display: flex;
 			left: 0;
+			z-index: 1;
+			-webkit-box-shadow: 0px 2px 10px -3px rgba(0,0,0,0.75);
+			-moz-box-shadow: 0px 2px 10px -3px rgba(0,0,0,0.75);
+			box-shadow: 0px 2px 10px -3px rgba(0,0,0,0.75);
 
-			.hamburger {
-				width: 60px;
-				position: fixed;
-				left: 10px;
-				top: 10px;
-			}
+			.nav-content {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				width: 95%;
+				margin: auto;
 
-			.hamburger:focus {
-				outline: none;
-			}
+				.logo-tt {
+					display: flex;
+					align-items: center;
+					justify-content: flex-end;
+					width: 45%;
 
-			p {
-				// width: 60px;
-				position: fixed;
-				right: 5px;
-				bottom: 10px;
+					.my-logo {
+						width: 50px;
+					}
+
+					.title {
+						color: white;
+						// left: 25%;
+						margin: auto;
+						font-size: 30px;
+						// width: 40%;
+					}
+				}
+
+
+
+				.hamburger {
+					// width: 50px;
+					// height: 55px;
+					// position: fixed;
+					// left: 10px;
+					// top: 10px;
+					align-items: center;
+
+				}
+
+				.hamburger:focus {
+					outline: none;
+				}
 			}
+		}
+	}
+
+	@media(min-width: 800px) {
+		.navbar {
+			display: none;
 		}
 	}
 

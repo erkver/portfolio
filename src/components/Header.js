@@ -2,6 +2,7 @@ import React from 'react'
 
 import Footer from './Footer'
 import avatar from '../assets/images/avatar.png'
+import logo from '../../public/icons/website-icon.png'
 
 const hamburgerStyles = {width: "25px", height: "25px"};
 
@@ -17,15 +18,21 @@ class Header extends React.Component {
       return (
         <header id="header">
           <div className="navbar">
-          <button
-            // styles={hamburgerStyles}
-            className={`hamburger hamburger--collapse ${!visible ? "" : "is-active"}`}
-            onClick={() => this.setState({visible: !visible})}
-          >
-            <span className="hamburger-box">
-              <span className="hamburger-inner"></span>
-            </span>
-          </button>
+          <div className="nav-content">
+            <button
+              // styles={hamburgerStyles}
+              className={`hamburger hamburger--collapse ${!visible ? "" : "is-active"}`}
+              onClick={() => this.setState({visible: !visible})}
+            >
+              <span style={{"marginTop": "10px"}} className="hamburger-box">
+                <span className="hamburger-inner"></span>
+              </span>
+            </button>
+            <div className="logo-tt">
+              <p className="title">Eric Vere</p>
+              <img className="my-logo" src={logo} alt="" />
+            </div>
+            </div>
           </div>
           <div className="inner">
             <img className="image avatar" src={avatar} alt="" />
