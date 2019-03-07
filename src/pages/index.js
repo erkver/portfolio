@@ -5,23 +5,23 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
-import thumb01 from '../assets/images/gitChatThumbs/2.png'
-import thumb02 from '../assets/images/gitChatThumbs/1.png'
-import thumb03 from '../assets/images/gitChatThumbs/3.png'
-import thumb04 from '../assets/images/gitChatThumbs/4.png'
-import thumb05 from '../assets/images/sceneItThumbs/1.png'
-import thumb06 from '../assets/images/sceneItThumbs/2.png'
-import thumb07 from '../assets/images/sceneItThumbs/3.png'
-import thumb08 from '../assets/images/sceneItThumbs/4.png'
+import thumb01 from '../assets/images/gitChatThumbs/2.PNG'
+import thumb02 from '../assets/images/gitChatThumbs/1.PNG'
+import thumb03 from '../assets/images/gitChatThumbs/3.PNG'
+import thumb04 from '../assets/images/gitChatThumbs/4.PNG'
+import thumb05 from '../assets/images/sceneItThumbs/1.PNG'
+import thumb06 from '../assets/images/sceneItThumbs/2.PNG'
+import thumb07 from '../assets/images/sceneItThumbs/3.PNG'
+import thumb08 from '../assets/images/sceneItThumbs/4.PNG'
 
-import full01 from '../assets/images/project Screenshots/gitchat-Landing.png'
-import full02 from '../assets/images/project Screenshots/gitchat-Dash.png'
-import full03 from '../assets/images/project Screenshots/gitchat-DM.png'
-import full04 from '../assets/images/project Screenshots/gitchat-ServerChannel.png'
-import full05 from '../assets/images/project Screenshots/SceneIt-UserScreening.png'
-import full06 from '../assets/images/project Screenshots/SceneIt-AdminReports2.png'
-import full07 from '../assets/images/project Screenshots/SceneIt-AdminReports.png'
-import full08 from '../assets/images/project Screenshots/SceneIt-ScreeningData.png'
+import full01 from '../assets/images/project Screenshots/gitchat-Landing.PNG'
+import full02 from '../assets/images/project Screenshots/gitchat-Dash.PNG'
+import full03 from '../assets/images/project Screenshots/gitchat-DM.PNG'
+import full04 from '../assets/images/project Screenshots/gitchat-ServerChannel.PNG'
+import full05 from '../assets/images/project Screenshots/SceneIt-UserScreening.PNG'
+import full06 from '../assets/images/project Screenshots/SceneIt-AdminReports2.PNG'
+import full07 from '../assets/images/project Screenshots/SceneIt-AdminReports.PNG'
+import full08 from '../assets/images/project Screenshots/SceneIt-ScreeningData.PNG'
 
 const DEFAULT_IMAGES = [
   {
@@ -274,7 +274,7 @@ class HomeIndex extends React.Component {
               <div className="icon-cont">
                 <img
                   style={{ width: '100%', margin: '0' }}
-                  src="https://miro.medium.com/max/480/1*To2H39eauxaeYxYMtV1afQ.png"
+                  src="https://miro.medium.com/max/480/1*To2H39eauxaeYxYMtV1afQ.PNG"
                   alt=""
                 />
                 <p>React</p>
@@ -282,7 +282,7 @@ class HomeIndex extends React.Component {
               <div className="icon-cont">
                 <img
                   style={{ width: '100%', margin: '0' }}
-                  src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"
+                  src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.PNG"
                   alt=""
                 />
                 <p>Redux</p>
@@ -343,7 +343,7 @@ class HomeIndex extends React.Component {
               <div className="icon-cont">
                 <img
                   style={{ width: '100%', margin: '0' }}
-                  src="https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png"
+                  src="https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.PNG"
                   alt=""
                 />
                 <p>Firebase</p>
